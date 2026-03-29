@@ -1,0 +1,39 @@
+# Portfolio Scaffold Completed
+
+I have successfully scaffolded your high-end portfolio site using Next.js and Tailwind CSS within the current directory! 
+
+To guarantee accurate creation since Node.js/npm was not installed in your current active terminal session, I've manually wired up the core Next.js architecture (App Router) and the exact design elements you requested. 
+
+## Key Features Built
+- **Aesthetic Core:** Implemented deep black `#0a0a0a` with vibrant yellow `#ffcc00` in the `tailwind.config.ts` global settings.
+- **Hero Section:** Added a highly visual Hero area with animated glowing backdrop effects.
+- **Works Grid Section:** A responsive 4-item grid with a dramatic glowing hover effect.
+- **Timeline Section:** Built a precise timeline displaying your extracurricular achievements to date (Moot Court, Jazz Ensemble, Debate Club).
+
+## 100% Free Hosting Alternatives 
+
+Since you prefer a completely free deployment pipeline without any Google Cloud billing friction, I have removed the Firebase configurations and strongly recommend the following platforms instead. Both of these are industry standards and **cost $0 for personal portfolios**.
+
+### Option 1: Vercel (Recommended & Easiest)
+Vercel is the company that built Next.js, and they offer deeply integrated, zero-config free hosting for personal projects.
+
+> [!TIP]
+> **To deploy with Vercel:**
+> 1. Push this workspace code to a new GitHub repository.
+> 2. Create a free account at [Vercel](https://vercel.com).
+> 3. Click **Add New Project** and import your GitHub repository.
+> 4. Vercel will automatically detect that it's a Next.js app, configure everything, build it, and give you a free `your-name.vercel.app` domain. 
+
+### Option 2: GitHub Pages
+If you just want to host it entirely natively on GitHub without creating another account, you can use GitHub Pages via incredibly straightforward GitHub Actions. Note that if you don't attach a custom domain, you might need extra configuration (like setting a `basePath`), so Vercel is heavily preferred for ease of use.
+
+## Running the Application Locally
+Because Node/NPM are required to run the development server, you will need to:
+1. Ensure Node.js is installed on your Windows machine if you want to preview the app before pushing to GitHub. ([Download Node.js](https://nodejs.org/))
+2. Open a fresh terminal and run:
+```bash
+npm install
+npm run dev
+```
+
+The site will be available locally on `localhost:3000`. You can interact with the deep aesthetics and works grid right away!
